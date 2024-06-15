@@ -111,8 +111,8 @@ const animationTimeline = () => {
         color: "#fff",
       })
       .to(".idea-3", 0.7, ideaTextTransLeave, "+=1.5")
-      .from(".idea-4", 0.7, ideaTextTrans)
-      .to(".idea-4", 0.7, ideaTextTransLeave, "+=1.5")
+      .from(".idea-4", 2, ideaTextTrans)
+      .to(".idea-4", 2, ideaTextTransLeave, "+=1.5")
       .from(
         ".idea-5",
         0.7,
